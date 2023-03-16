@@ -73,7 +73,7 @@ section {
   color: rgba(225, 225, 225, 0.01);
   background-image: url("https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80");
   background-repeat: repeat;
-  webkit-background-clip: text;
+  -webkit-background-clip: text;
   animation: animate 15s ease-in-out infinite;
   text-align: center;
   text-transform: uppercase;
@@ -233,7 +233,7 @@ section {
 
 .home .row .image{
     flex:1 1 42rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .home .row .image img{
@@ -241,6 +241,18 @@ section {
     height:50rem;
     animation:aboutImage 4s linear infinite;
 }
+
+@keyframes aboutImage {
+    0%, 100%{
+        transform: scale(.9);
+        border-radius: var(--border-radius-hover);
+    }
+    50%{
+        transform: scale(.8);
+        border-radius: var(--border-radius);
+    }
+}
+
 @media (max-width:991px) {
     .home .row .image img{
         width: 70%;
