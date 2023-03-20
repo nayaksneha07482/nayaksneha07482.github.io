@@ -60,7 +60,7 @@ section {
   z-index: 1000;
   background: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 1rem 5%;
+  padding: 0.5rem 5%;
 }
 
 .btn,
@@ -238,7 +238,7 @@ section {
 
 .home .row .image img{
     width: 80%;
-    height:50rem;
+    height:45rem;
     animation:aboutImage 4s linear infinite;
 }
 
@@ -276,7 +276,7 @@ section {
   background:url('https://media.giphy.com/media/FE0WTM8BG754I/giphy.gif') center center no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size:9rem;
+  font-size:6rem;
   letter-spacing:8px;
   background-size:cover;
   margin:0px;
@@ -422,9 +422,9 @@ ul {
     flex:1 1 42rem;
 }
 
-.about .row .content .title, .icons h3, .text h2{
+.about .row .content .title,  .text h2{
     /* color: #85afc6; */
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 1.8;
     font-family: 'oswald', sans-serif;  
     background-size: 200%;
@@ -435,6 +435,18 @@ ul {
     -webkit-animation: glow 9s linear infinite;
     animation: glow 9s linear infinite;
   
+}
+.icons h3{
+  font-size: 1.2rem;
+  font-family: 'oswald', sans-serif;  
+    background-size: 200%;
+    background-image: none;
+    background-image: linear-gradient(45deg,#ef7cae 0%,#ff709d 35%,#00c9d3 66%,#00c9d3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: glow 9s linear infinite;
+    animation: glow 9s linear infinite;
+    line-height: 1.5;
 }
 @-webkit-keyframes glow {
     0% {
@@ -466,7 +478,7 @@ ul {
 
 .about .row .content p{
     /* color:var(--main-color); */
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.7;
     color: #332a2a;
     font-weight: 500;
@@ -543,9 +555,10 @@ ul {
 .text p{
     /* margin-top: 10%; */
     padding: 10px 10px 0px 20px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     color: rgb(50, 41, 58);
+    /* color: #332a2a; */
     font-weight: 500;
     
 }
