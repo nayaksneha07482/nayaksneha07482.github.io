@@ -820,3 +820,25 @@ ul {
 	right: -10px;
 	top: 0;
 }
+
+/* -------------------------------------------------------- */
+
+
+
+
+
+.stats{
+  /* width: 750px; */
+  /* margin: auto; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.stats img{
+  width: 100%;
+}
+.stats img:hover{
+  transform: scale(1.05);
+}
